@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Space Grotesk";
+    src: url(SpaceGrotesk-VariableFont_wght.ttf) format(tff)
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: rgb(241, 240, 236);
+    font-family: monospace;
+    line-height: 1.2;
+    font-family: "Space Grotesk", sans-serif;
+    front-optical-sizing: auto;
+}
+
+h1{
+    margin: 0;
+}
+
+p{
+    max-width: 600px;
+}
+/*header*/
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: currentColor;
+    background: #ffffffb0;
+
+}
+
+.nav a{
+    display: block;
+    padding: 10px;
+}
+
+/****
+page projet
+*****/
+
+.projet{
+    background: rgb(235, 233, 229);
+}
+
+.projet h1{
+    font-size: 15px;
+    color:blue;
+}
+
+.projet p{
+    color: blue;
+}
